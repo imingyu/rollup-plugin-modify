@@ -1,20 +1,18 @@
-[![version](https://img.shields.io/npm/v/rollup-plugin-modify.svg)]()  [![license](https://img.shields.io/github/license/porsager/rollup-plugin-modify.svg)]()
-
-# 🔎 `@imingyu/rollup-plugin-modify`
+# 🔎 `imingyu-rollup-plugin-modify`
 
 Modify rollup output with find / replace dynamically.
 
-Fork porsager/rollup-plugin-modify, change log: add `moduleId` arg to replace function.
+Fork [porsager/rollup-plugin-modify](https://github.com/porsager/rollup-plugin-modify), change log: add `moduleId` arg to replace function.
 
 ## Usage
 
 ```bash
-npm i @imingyu/rollup-plugin-modify
+npm i imingyu-rollup-plugin-modify
 ```
 
 Explicit single using find, replace keys
 ```js
-import modify from 'rollup-plugin-modify'
+import modify from 'imingyu-rollup-plugin-modify'
 
 export default {
   plugins: [

@@ -31,7 +31,7 @@ module.exports = function modify({
             match.index,
             match.index + match[0].length,
             typeof replace === 'function'
-              ? replace.apply(null, match)
+              ? replace.call(null, match[0], id)
               : String(replace)
           )
         }

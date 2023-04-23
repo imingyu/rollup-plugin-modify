@@ -4,6 +4,8 @@
 
 Modify rollup output with find / replace dynamically.
 
+Fork porsager/rollup-plugin-modify, change log: add `moduleId` arg to replace function.
+
 ## Usage
 
 ```bash

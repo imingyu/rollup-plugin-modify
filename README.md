@@ -1,13 +1,13 @@
 [![version](https://img.shields.io/npm/v/rollup-plugin-modify.svg)]()  [![license](https://img.shields.io/github/license/porsager/rollup-plugin-modify.svg)]()
 
-# 🔎 `rollup-plugin-modify`
+# 🔎 `@imingyu/rollup-plugin-modify`
 
 Modify rollup output with find / replace dynamically.
 
 ## Usage
 
 ```bash
-npm i rollup-plugin-modify
+npm i @imingyu/rollup-plugin-modify
 ```
 
 Explicit single using find, replace keys
@@ -60,7 +60,7 @@ modify({
 ```js
 modify({
   find: /svg\((.*?)\)/,
-  replace: (match, path) => JSON.stringify(fs.readFileSync(path, 'utf8'))
+  replace: (matchStr, moduleId) => { return 'xxx' }
 })
 ```
 
